@@ -1,0 +1,55 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: max-content;
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.video-details, .transcript-output {
+    margin-bottom: 20px;
+}
+
+.summarize-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: large;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+.summarize-btn:hover {
+    background-color: darkred;
+}
+
+.details {
+    font-weight: bold;
+   
+
+}
+
+.transcript-output h2 {
+    margin-top: 0;
+}
+
+#summarized-text {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}

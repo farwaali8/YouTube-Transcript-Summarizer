@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcript Summarizer</title>
+    <link rel="stylesheet" href="popup.css">
+    <script src="popup.js" defer></script>
+</head>
+<body>
+    <div id="app" class="container">
+        <h1>Youtube Transcript Summarizer</h1>
+
+        <!-- Video Details -->
+        <div id="video-details" class="video-details">
+            <p id="video-title">Video Title: <span class="details">Loading...</span></p>
+            <p id="view-count">View Count: <span class="details">Loading...</span></p>
+        </div>
+
+        <!-- User Controls -->
+        <button id="summarize-button" class="summarize-btn">Summarize Transcript</button>
+        
+        <!-- Output Display -->
+        <div id="transcript" class="transcript-output">
+            <h2>Summarized Transcript:</h2>
+            <p id="summarized-text">Loading...</p>
+        </div>
+    </div>
+</body>
+</html>
